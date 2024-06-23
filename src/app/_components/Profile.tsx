@@ -8,9 +8,9 @@ const Profile = (props: Props) => {
     <div className="bg-blue-100 h-full p-4 rounded-xl px-4">
       <div className="flex justify-center items-center pt-4 pb-2">
         <Image
-          src="https://www.ghibli.jp/gallery/ponyo034.jpg"
-          width={500}
-          height={500}
+          src="/getstudentimage.jpg"
+          width={600}
+          height={700}
           alt="profile picture"
           className="w-3/4 aspect-square rounded-full border-4 border-white"
         />
@@ -20,16 +20,16 @@ const Profile = (props: Props) => {
         <p className="text-base">Computer Engineering and Artificial Intelligence</p>
       </div>
 
-      <div className="py-10 text-center ">" May the force be with you "</div>
+      <div className="py-10 text-center ">" I Believe In You"</div>
       <div className="p-6 mx-1 xl:mx-6 bg-blue-300 rounded-md">
         <p>
-          <b>Age:</b> 26
+          <b>Age:</b> 20
         </p>
         <p>
           <b>Status:</b> Single
         </p>
         <p>
-          <b>Location:</b> Bangkok
+          <b>Location:</b> Nakhon Si Thammarat
         </p>
       </div>
     </div>
