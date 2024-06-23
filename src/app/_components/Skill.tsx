@@ -3,7 +3,6 @@ import {
   faJs,
   faPython,
   faHtml5,
-  fa-c,
   
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -30,10 +29,6 @@ const Skill = (props: Props) => {
         <div className="text-center">
           <FontAwesomeIcon icon={faHtml5} className="h-10" />
           <p>Html5</p>
-        </div>
-        <div className="text-center">
-          <FontAwesomeIcon icon={fa-c} className="h-10" />
-          <p>C</p>
         </div>
       </div>
     </Card>
