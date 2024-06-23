@@ -7,7 +7,8 @@ export default function blog() {
       <div className="container mx-auto px-40">
         <div className="mb-5">
           <Link href="/" className="text-sm flex gap-2 items-center">
-            <MoveLeft size={14} /> Profile
+            <MoveLeft size={14} /> 
+            Profile
           </Link>
         </div>
         <header className="flex justify-between items-center mb-5">

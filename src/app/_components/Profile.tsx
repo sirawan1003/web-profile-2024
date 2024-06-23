@@ -5,7 +5,7 @@ type Props = {};
 
 const Profile = (props: Props) => {
   return (
-    <div className="bg-blue-100 h-full p-4 rounded-xl px-4">
+    <div className="bg-teal-300 h-full p-4 rounded-xl px-4">
       <div className="flex justify-center items-center pt-4 pb-2">
         <Image
           src="/ponyo034.jpg"
@@ -21,7 +21,7 @@ const Profile = (props: Props) => {
       </div>
 
       <div className="py-10 text-center ">" I Believe In You"</div>
-      <div className="p-6 mx-1 xl:mx-6 bg-blue-300 rounded-md">
+      <div className="p-6 mx-1 xl:mx-6 bg-white rounded-md">
         <p>
           <b>Age:</b> 20
         </p>
