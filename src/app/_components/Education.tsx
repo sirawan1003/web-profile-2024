@@ -6,9 +6,9 @@ type Props = {};
 const Education = (props: Props) => {
   return (
     <Card title="Education">
-      <div className="relative border-l-4 border-blue-500">
+      <div className="relative border-l-4 border-white">
         <div className="mb-5 ml-4">
-          <div className="absolute -left-2 mt-1.5 h-3 w-3 rounded-full border border-white bg-blue-500"></div>
+          <div className="absolute -left-2 mt-1.5 h-3 w-3 rounded-full border border-white bg-white"></div>
           <div className="rounded-lg bg-white p-2 shadow-md">
             <time className="text-sm font-semibold text-gray-500">
               2022-present
